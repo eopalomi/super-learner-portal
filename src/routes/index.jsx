@@ -27,6 +27,8 @@ const router = createBrowserRouter([
   },
   ...LoginRoutes,
   ...MainRoutes,
-]);
+], {
+  basename: '/super-learner-portal'
+});
 
 export default router;
